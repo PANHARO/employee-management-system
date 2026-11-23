@@ -54,7 +54,6 @@ Use fictional data and a demo password. Login details are stored as plain text. 
 ## Portability and troubleshooting
 
 - If `g++` is not recognized, add your compiler's binary directory to PATH or use its configured terminal.
-- `main.c++` includes `view/ui.hpp`, while the file is named `view/UI.hpp`. Windows usually resolves that case difference; a case-sensitive filesystem requires correcting the include.
 - Console input and screen clearing need replacements for Linux/macOS. The `strcasecmp` call also depends on compiler support; MSVC may require a different function.
 - Input validation and authentication are intended for coursework, not a production HR system.
 

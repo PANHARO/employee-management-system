@@ -1,5 +1,5 @@
 #include<iostream>
-#include "view/ui.hpp"
+#include "view/UI.hpp"
 
 int main() {
 
